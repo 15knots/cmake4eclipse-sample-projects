@@ -5,4 +5,4 @@ include_directories( ${CMAKE_CURRENT_BINARY_DIR})
 ADD_DEFINITIONS(-DMACRO_FROM_COMMANDLINE=2)
 
 add_executable(hello-cuda hello-cuda.cu)
-add_executable(main main.c)
+#add_executable(main main.c)
