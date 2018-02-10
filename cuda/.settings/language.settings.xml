@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+	<configuration id="com.nvidia.cuda.toolchain.linux.configuration.debug.1119690672" name="Debug">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider class="de.marw.cmake.cdt.language.settings.providers.CompileCommandsJsonParser" id="de.marw.cmake.cdt.language.settings.providers.CompileCommandsJsonParser" name="CMAKE_EXPORT_COMPILE_COMMANDS Parser" prefer-non-shared="true" store-entries-with-project="true">
+				<language-scope id="org.eclipse.cdt.core.gcc"/>
+				<language-scope id="org.eclipse.cdt.core.g++"/>
+			</provider>
+			<provider-reference id="com.nvidia.cuda.toolchain.CUDACProvider" ref="shared-provider"/>
+		</extension>
+	</configuration>
+</project>
