@@ -8,5 +8,8 @@ int main(void) {
 #if MACRO_FROM_C_INCLPATH_PRJ-0
 	puts("!!!Hello World!!!" );
 #endif
+#if MACRO_FROM_COMMANDLINE-0
+	puts("!!!Hello, hello World!!!" );
+#endif
 return EXIT_SUCCESS;
 }

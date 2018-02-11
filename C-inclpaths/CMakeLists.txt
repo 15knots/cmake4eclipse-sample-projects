@@ -20,5 +20,5 @@ IF(CMAKE_COMPILER_IS_GNUCC)
 ENDIF(CMAKE_COMPILER_IS_GNUCC)
 
 include_directories( "${PROJECT_BINARY_DIR}" "${PROJECT_SOURCE_DIR}/../../../INCLUDE")
-set( P)
+
 add_subdirectory(src)
