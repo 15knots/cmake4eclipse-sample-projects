@@ -15,7 +15,7 @@
 					<folderInfo id="com.nvidia.cuda.toolchain.linux.configuration.debug.1119690672." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.base.81594836" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.base" unusedChildren="cdt.managedbuild.tool.gnu.cpp.linker.base;cdt.managedbuild.tool.gnu.archiver.base;cdt.managedbuild.tool.gnu.assembler.base;cdt.managedbuild.tool.gnu.c.linker.base">
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.GNU_ELF" id="cdt.managedbuild.target.gnu.platform.base.2024552606" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="cdt.managedbuild.target.gnu.platform.base"/>
-							<builder buildPath="/cuda/build/Debug" id="de.marw.cdt.cmake.core.genscriptbuilder.1179045901" keepEnvironmentInBuildfile="false" name="CMake Builder (portable)" superClass="de.marw.cdt.cmake.core.genscriptbuilder"/>
+							<builder buildPath="/cuda/build/Debug" id="de.marw.cdt.cmake.core.genscriptbuilder.1179045901" keepEnvironmentInBuildfile="false" name="CMake Builder (portable)" parallelBuildOn="true" parallelizationNumber="optimal" superClass="de.marw.cdt.cmake.core.genscriptbuilder"/>
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.base.696203890" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.base">
 								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.215053187" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.debugging.level.1392474975" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>

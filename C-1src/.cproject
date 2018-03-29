@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?fileVersion 4.0.0?>
-
-<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
 	<storageModule moduleId="org.eclipse.cdt.core.settings">
 		<cconfiguration id="cdt.managedbuild.config.gnu.exe.debug.960404064">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.exe.debug.960404064" moduleId="org.eclipse.cdt.core.settings" name="Debug">
@@ -18,15 +16,14 @@
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="de.marw.cdt.cmake.core.CMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="*" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GmakeErrorParser;de.marw.cdt.cmake.core.CMakeErrorParser" id="cdt.managedbuild.config.gnu.exe.debug.960404064" name="Debug" parent="cdt.managedbuild.config.gnu.exe.debug">
+				<configuration artifactName="*" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GmakeErrorParser" id="cdt.managedbuild.config.gnu.exe.debug.960404064" name="Debug" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.960404064." name="/" resourcePath="">
 						<toolChain errorParsers="" id="cdt.managedbuild.toolchain.gnu.base.1131909531" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.base" unusedChildren="cdt.managedbuild.tool.gnu.cpp.linker.base;cdt.managedbuild.tool.gnu.c.compiler.base;cdt.managedbuild.tool.gnu.cpp.compiler.base;cdt.managedbuild.tool.gnu.archiver.base;cdt.managedbuild.tool.gnu.assembler.base;cdt.managedbuild.tool.gnu.c.linker.base">
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.base.859583339" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="cdt.managedbuild.target.gnu.platform.base"/>
-							<builder buildPath="/C-1src/build/Debug" enableAutoBuild="true" errorParsers="de.marw.cdt.cmake.core.CMakeErrorParser" id="de.marw.cdt.cmake.core.genscriptbuilder.1684544476" keepEnvironmentInBuildfile="false" name="CMake Builder (portable)" superClass="de.marw.cdt.cmake.core.genscriptbuilder"/>
+							<builder buildPath="/C-1src/build/Debug" enableAutoBuild="true" errorParsers="" id="de.marw.cdt.cmake.core.genscriptbuilder.1684544476" keepEnvironmentInBuildfile="false" name="CMake Builder (portable)" parallelBuildOn="true" parallelizationNumber="optimal" superClass="de.marw.cdt.cmake.core.genscriptbuilder"/>
 							<tool errorParsers="org.eclipse.cdt.core.GCCErrorParser" id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1645642695" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
 								<option id="gnu.cpp.compiler.exe.debug.option.optimization.level.765776140" name="Optimization Level" superClass="gnu.cpp.compiler.exe.debug.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.exe.debug.option.debugging.level.51933354" name="Debug Level" superClass="gnu.cpp.compiler.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
@@ -45,11 +42,15 @@
 				</configuration>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
-			<storageModule moduleId="de.marw.cdt.cmake.core.settings">
+			<storageModule buildDir="build/${ConfigName}" moduleId="de.marw.cdt.cmake.core.settings">
 				<options/>
 				<linux command="cmake" generator="UnixMakefiles" use-default="true">
+					<defs/>
+					<undefs/>
 				</linux>
 				<win32 command="cmake" generator="MinGWMakefiles" use-default="true">
+					<defs/>
+					<undefs/>
 				</win32>
 			</storageModule>
 		</cconfiguration>
@@ -59,14 +60,14 @@
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope" versionNumber="2">
-		<configuration configurationName="Release">
-			<resource resourceType="FOLDER" workspacePath="/CDT-mgmt2-C-1src/build"/>
-		</configuration>
 		<configuration configurationName="Multiple configurations">
 			<resource resourceType="PROJECT" workspacePath="/CDT-mgmt2-C-1src"/>
 		</configuration>
-		<configuration configurationName="Debug"/>
 		<configuration configurationName="release"/>
+		<configuration configurationName="Debug"/>
+		<configuration configurationName="Release">
+			<resource resourceType="FOLDER" workspacePath="/CDT-mgmt2-C-1src/build"/>
+		</configuration>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 	<storageModule moduleId="scannerConfiguration">
