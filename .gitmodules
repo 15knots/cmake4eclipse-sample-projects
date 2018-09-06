@@ -1,0 +1,3 @@
+[submodule "gnucash/upstream"]
+	path = gnucash/upstream
+	url = https://github.com/Gnucash/gnucash.git
