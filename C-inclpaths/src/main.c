@@ -11,5 +11,9 @@ int main(void) {
 #if MACRO_FROM_COMMANDLINE-0
 	puts("!!!Hello, hello World!!!" );
 #endif
+#if __GNUC__-0
+	puts("!!!Hello, hello World!!!" );
+#endif
+
 return EXIT_SUCCESS;
 }
