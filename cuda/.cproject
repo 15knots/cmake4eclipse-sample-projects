@@ -43,11 +43,8 @@
 					<defs>
 						<def name="CMAKE_CUDA_COMPILER" type="FILEPATH" val="/usr/local/cuda-9.1/bin/nvcc"/>
 					</defs>
-					<undefs/>
 				</linux>
 				<win32 command="cmake" generator="MinGWMakefiles" use-default="true">
-					<defs/>
-					<undefs/>
 				</win32>
 				<options/>
 			</storageModule>

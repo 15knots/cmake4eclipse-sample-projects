@@ -35,13 +35,12 @@
 				</configuration>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
-			<storageModule moduleId="de.marw.cdt.cmake.core.settings">
+			<storageModule buildDir="build/${ConfigName}" moduleId="de.marw.cdt.cmake.core.settings">
 				<options/>
 				<linux command="" generator="UnixMakefiles" use-default="true">
 					<defs>
 						<def name="sadd" type="STRING" val="asds"/>
 					</defs>
-					<undefs/>
 				</linux>
 				<win32 command="cmake" generator="MinGWMakefiles" use-default="true">
 					<win32 command="windowscmake" generator="Unix Makefiles">
