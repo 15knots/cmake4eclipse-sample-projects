@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project>
-	<configuration id="cdt.managedbuild.config.gnu.exe.debug.461209392" name="Debug">
+	<configuration id="cdt.managedbuild.config.gnu.exe.debug.1032143469" name="Debug">
 		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
-			<provider-reference id="de.marw.cmake.cdt.language.settings.providers.CompileCommandsJsonParser" ref="shared-provider"/>
 			<provider-reference id="de.marw.cmake.cdt.language.settings.providers.BuiltinsCompileCommandsJsonParser" ref="shared-provider"/>
+			<provider-reference id="de.marw.cmake.cdt.language.settings.providers.CompileCommandsJsonParser" ref="shared-provider"/>
 		</extension>
 	</configuration>
-	<configuration id="cdt.managedbuild.config.gnu.exe.release.923738954" name="Release">
+	<configuration id="cdt.managedbuild.config.gnu.exe.release.1366911908" name="Release">
 		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
-			<provider-reference id="de.marw.cmake.cdt.language.settings.providers.CompileCommandsJsonParser" ref="shared-provider"/>
 			<provider-reference id="de.marw.cmake.cdt.language.settings.providers.BuiltinsCompileCommandsJsonParser" ref="shared-provider"/>
+			<provider-reference id="de.marw.cmake.cdt.language.settings.providers.CompileCommandsJsonParser" ref="shared-provider"/>
 		</extension>
 	</configuration>
 </project>
