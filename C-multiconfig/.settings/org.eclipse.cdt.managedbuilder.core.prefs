@@ -5,3 +5,9 @@ environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.exe.debug.461209
 environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.exe.debug.461209392/C_INCLUDE_PATH/operation=remove
 environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.exe.debug.461209392/append=true
 environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.exe.debug.461209392/appendContributed=true
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.exe.release.1366911908/CPATH/delimiter=\:
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.exe.release.1366911908/CPATH/operation=remove
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.exe.release.1366911908/C_INCLUDE_PATH/delimiter=\:
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.exe.release.1366911908/C_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.exe.release.1366911908/append=true
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.exe.release.1366911908/appendContributed=true
