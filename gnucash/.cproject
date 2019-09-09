@@ -30,7 +30,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="gnc-submodule"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="upstream"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
