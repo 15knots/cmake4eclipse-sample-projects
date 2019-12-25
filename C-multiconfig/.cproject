@@ -6,19 +6,22 @@
 				<externalSettings/>
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.1032143469" name="Debug" parent="cdt.managedbuild.config.gnu.exe.debug">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.GCCErrorParser" id="cdt.managedbuild.config.gnu.exe.debug.1032143469" name="Debug" optionalBuildProperties="org.eclipse.cdt.docker.launcher.containerbuild.property.selectedvolumes=,org.eclipse.cdt.docker.launcher.containerbuild.property.volumes=" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.1032143469." name="/" resourcePath="">
-						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.1978318640" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug" unusedChildren="cdt.managedbuild.tool.gnu.assembler.exe.debug;cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug;cdt.managedbuild.tool.gnu.c.linker.exe.debug;cdt.managedbuild.tool.gnu.cpp.linker.exe.debug">
-							<targetPlatform id="cdt.managedbuild.target.gnu.platform.exe.debug.1347992220" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
-							<builder buildPath="/C-multiconfig/build/Debug" id="de.marw.cdt.cmake.core.genscriptbuilder.300346760" keepEnvironmentInBuildfile="false" name="CMake Builder (portable)" parallelBuildOn="true" parallelizationNumber="optimal" superClass="de.marw.cdt.cmake.core.genscriptbuilder"/>
-							<tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1605937127" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug">
-								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.exe.debug.option.optimization.level.903338419" name="Optimization Level" superClass="gnu.c.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
-								<option defaultValue="gnu.c.debugging.level.max" id="gnu.c.compiler.exe.debug.option.debugging.level.1586896435" name="Debug Level" superClass="gnu.c.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
-								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2077703318" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						<toolChain id="de.marw.cmake.cdt.lsp.toolchain.cmake.1008714082" name="CMake driven" superClass="de.marw.cmake.cdt.lsp.toolchain.cmake">
+							<targetPlatform id="de.marw.cmake.cdt.lsp.targetPlatform.cmake.60589618" name="Any Platform" superClass="de.marw.cmake.cdt.lsp.targetPlatform.cmake"/>
+							<builder buildPath="/C-multiconfig/build/Debug" id="de.marw.cmake.cdt.lsp.builder.portable.1898889904" keepEnvironmentInBuildfile="false" name="CMake Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="de.marw.cmake.cdt.lsp.builder.portable"/>
+							<tool id="de.marw.cmake.cdt.lsp.toolchain.tool.dummy.560827503" name="CMake driven Languages Proxy" superClass="de.marw.cmake.cdt.lsp.toolchain.tool.dummy">
+								<inputType id="de.marw.cmake.cdt.lsp.inputType.c.1628728360" superClass="de.marw.cmake.cdt.lsp.inputType.c"/>
+								<inputType id="de.marw.cmake.cdt.lsp.inputType.cpp.1285872151" superClass="de.marw.cmake.cdt.lsp.inputType.cpp"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
@@ -39,12 +42,13 @@
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.release.1366911908." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.release.732934042" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.release" unusedChildren="cdt.managedbuild.tool.gnu.c.linker.exe.release;cdt.managedbuild.tool.gnu.assembler.exe.release;cdt.managedbuild.tool.gnu.cpp.linker.exe.release;cdt.managedbuild.tool.gnu.cpp.compiler.exe.release">
 							<targetPlatform id="cdt.managedbuild.target.gnu.platform.exe.release.1928545852" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.release"/>
-							<builder buildPath="/C-multiconfig/build/Release" id="de.marw.cdt.cmake.core.genscriptbuilder.1141604173" keepEnvironmentInBuildfile="false" name="CMake Builder (portable)" parallelBuildOn="true" parallelizationNumber="optimal" superClass="de.marw.cdt.cmake.core.genscriptbuilder"/>
+							<builder buildPath="/C-multiconfig/build/Release" id="de.marw.cdt.cmake.core.genscriptbuilder.1141604173" keepEnvironmentInBuildfile="false" name="CMake Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="de.marw.cdt.cmake.core.genscriptbuilder"/>
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.release.625404246" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.release">
 								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.exe.release.option.optimization.level.148775615" name="Optimization Level" superClass="gnu.c.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
 								<option defaultValue="gnu.c.debugging.level.none" id="gnu.c.compiler.exe.release.option.debugging.level.1888409136" name="Debug Level" superClass="gnu.c.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.341443335" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.2114244788" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 						</toolChain>
 					</folderInfo>
 				</configuration>
