@@ -8,5 +8,6 @@ project(C-inclpath)
 configure_file( config.h.in ${CMAKE_CURRENT_BINARY_DIR}/config.h)
 include_directories( ${CMAKE_CURRENT_BINARY_DIR} include ../include ${PROJECT_SOURCE_DIR}/../../../INCLUDE)
 
-add_executable(main main.c)
 add_definitions(-DMACRO_FROM_ADD_DEFINITIONS=2)
+add_executable(main main.c)
+add_executable(main-cpp main2.cpp)
