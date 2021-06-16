@@ -29,12 +29,15 @@
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 			<storageModule buildDir="build/${ConfigName}" moduleId="de.marw.cdt.cmake.core.settings">
-				<linux command="/home/weber/tmp/cmake-3.10.2-Linux-x86_64/bin/cmake" generator="UnixMakefiles">
+				<linux command="cmake" generator="UnixMakefiles" use-default="true">
 					<defs>
 						<def name="CMAKE_CUDA_COMPILER" type="FILEPATH" val="/usr/local/cuda-9.1/bin/nvcc"/>
 					</defs>
+					<undefs/>
 				</linux>
 				<win32 command="cmake" generator="MinGWMakefiles" use-default="true">
+					<defs/>
+					<undefs/>
 				</win32>
 				<options/>
 			</storageModule>
