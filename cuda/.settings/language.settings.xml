@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project>
-	<configuration id="com.nvidia.cuda.toolchain.linux.configuration.debug.1119690672" name="Debug">
+	<configuration id="cdt.managedbuild.config.gnu.exe.debug.1281740834" name="Debug">
 		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
-			<provider-reference id="de.marw.cmake.cdt.language.settings.providers.CompileCommandsJsonParser" ref="shared-provider"/>
-			<provider-reference id="de.marw.cmake.cdt.language.settings.providers.BuiltinsCompileCommandsJsonParser" ref="shared-provider"/>
-			<provider-reference id="com.nvidia.cuda.toolchain.CUDACProvider" ref="shared-provider"/>
+			<provider copy-of="extension" id="cmake4eclipse.lsp.CompileCommandsJsonParser"/>
+		</extension>
+	</configuration>
+	<configuration id="cdt.managedbuild.config.gnu.exe.release.132401434" name="Release">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider copy-of="extension" id="cmake4eclipse.lsp.CompileCommandsJsonParser"/>
 		</extension>
 	</configuration>
 </project>
