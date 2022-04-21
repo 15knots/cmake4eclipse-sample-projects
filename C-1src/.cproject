@@ -17,13 +17,10 @@
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 				<configuration artifactName="${ProjName}" buildArtefactType="cmake4eclipse.mbs.buildArtefactType.cmake" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=cmake4eclipse.mbs.buildArtefactType.cmake,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="" id="cmake4eclipse.mbs.config.debug.1704033473" name="Debug" optionalBuildProperties="" parent="cmake4eclipse.mbs.config.debug">
 					<folderInfo id="cmake4eclipse.mbs.config.debug.1704033473." name="/" resourcePath="">
-						<toolChain id="cmake4eclipse.mbs.config.debug.toolChain.341921794" name="CMake driven" superClass="cmake4eclipse.mbs.config.debug.toolChain">
-							<targetPlatform id="cmake4eclipse.mbs.targetPlatform.cmake.1300831457" name="Any Platform" superClass="cmake4eclipse.mbs.targetPlatform.cmake"/>
-							<builder buildPath="/C-1src/build/Debug" id="cmake4eclipse.mbs.builder.530983851" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CMake Builder" superClass="cmake4eclipse.mbs.builder"/>
-							<tool id="cmake4eclipse.mbs.toolchain.tool.dummy.1233220130" name="CMake" superClass="cmake4eclipse.mbs.toolchain.tool.dummy">
-								<inputType id="cmake4eclipse.mbs.inputType.c.1947429491" superClass="cmake4eclipse.mbs.inputType.c"/>
-								<inputType id="cmake4eclipse.mbs.inputType.cpp.1075781052" superClass="cmake4eclipse.mbs.inputType.cpp"/>
-							</tool>
+						<toolChain id="cmake4eclipse.mbs.toolchain.cmake.1417160200" name="CMake driven" superClass="cmake4eclipse.mbs.toolchain.cmake">
+							<targetPlatform id="cmake4eclipse.mbs.targetPlatform.cmake.454320974" name="Any Platform" superClass="cmake4eclipse.mbs.targetPlatform.cmake"/>
+							<builder buildPath="/C-1src/_build/Debug" id="cmake4eclipse.mbs.builder.1932286843" name="CMake Builder.Debug" superClass="cmake4eclipse.mbs.builder"/>
+							<tool id="cmake4eclipse.mbs.toolchain.tool.dummy.360317109" name="CMake" superClass="cmake4eclipse.mbs.toolchain.tool.dummy"/>
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
@@ -31,17 +28,29 @@
 					</sourceEntries>
 				</configuration>
 			</storageModule>
-			<storageModule moduleId="de.marw.cmake4eclipse.mbs.settings"/>
+			<storageModule buildDir="_build/${ConfigName}" dirtyTs="0" moduleId="de.marw.cmake4eclipse.mbs.settings">
+				<options/>
+			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 		</cconfiguration>
 	</storageModule>
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="C-1src.cmake4eclipse.mbs.projectType.1543725866" name="Cmake4eclipse" projectType="cmake4eclipse.mbs.projectType"/>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/C-1src"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cmake4eclipse.mbs.config.debug.1704033473;cmake4eclipse.mbs.config.debug.1704033473.;cmake4eclipse.mbs.toolchain.tool.dummy.1233220130;cmake4eclipse.mbs.inputType.cpp.1075781052">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cmake4eclipse.mbs.config.debug.1704033473;cmake4eclipse.mbs.config.debug.1704033473.;cmake4eclipse.mbs.toolchain.tool.dummy.1233220130;cmake4eclipse.mbs.inputType.c.1947429491">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
 	</storageModule>
-	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
-	<storageModule moduleId="refreshScope"/>
-	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 </cproject>

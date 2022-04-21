@@ -15,7 +15,7 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="${ProjName}" buildArtefactType="cmake4eclipse.mbs.buildArtefactType.cmake" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=cmake4eclipse.mbs.buildArtefactType.cmake,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="" id="cmake4eclipse.mbs.config.debug.82622329" name="Debug" optionalBuildProperties="" parent="cmake4eclipse.mbs.config.debug">
+				<configuration artifactName="${ProjName}" buildArtefactType="cmake4eclipse.mbs.buildArtefactType.cmake" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=cmake4eclipse.mbs.buildArtefactType.cmake,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="" id="cmake4eclipse.mbs.config.debug.82622329" name="Debug" optionalBuildProperties="org.eclipse.cdt.docker.launcher.containerbuild.property.volumes=,org.eclipse.cdt.docker.launcher.containerbuild.property.selectedvolumes=" parent="cmake4eclipse.mbs.config.debug">
 					<folderInfo id="cmake4eclipse.mbs.config.debug.82622329." name="/" resourcePath="">
 						<toolChain id="cmake4eclipse.mbs.config.debug.toolChain.404415270" name="CMake driven" superClass="cmake4eclipse.mbs.config.debug.toolChain">
 							<targetPlatform id="cmake4eclipse.mbs.targetPlatform.cmake.748432694" name="Any Platform" superClass="cmake4eclipse.mbs.targetPlatform.cmake"/>
@@ -31,17 +31,29 @@
 					</sourceEntries>
 				</configuration>
 			</storageModule>
-			<storageModule moduleId="de.marw.cmake4eclipse.mbs.settings"/>
+			<storageModule buildDir="_build/${ConfigName}" dirtyTs="0" moduleId="de.marw.cmake4eclipse.mbs.settings">
+				<options/>
+			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 		</cconfiguration>
 	</storageModule>
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="gnucash.cmake4eclipse.mbs.projectType.1359391660" name="Cmake4eclipse" projectType="cmake4eclipse.mbs.projectType"/>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/gnucash"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cmake4eclipse.mbs.config.debug.82622329;cmake4eclipse.mbs.config.debug.82622329.;cmake4eclipse.mbs.toolchain.tool.dummy.1867537445;cmake4eclipse.mbs.inputType.c.482676160">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cmake4eclipse.mbs.config.debug.82622329;cmake4eclipse.mbs.config.debug.82622329.;cmake4eclipse.mbs.toolchain.tool.dummy.1867537445;cmake4eclipse.mbs.inputType.cpp.401138986">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
 	</storageModule>
-	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
-	<storageModule moduleId="refreshScope"/>
-	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 </cproject>

@@ -26,8 +26,16 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
+					<folderInfo id="cmake4eclipse.mbs.config.debug.1403917757.2097182211" name="/" resourcePath="src">
+						<toolChain id="cmake4eclipse.mbs.config.debug.toolChain.1572654786" name="CMake driven" superClass="cmake4eclipse.mbs.config.debug.toolChain" unusedChildren="">
+							<tool id="cmake4eclipse.mbs.toolchain.tool.dummy.1863251922" name="CMake" superClass="cmake4eclipse.mbs.toolchain.tool.dummy.1643298907">
+								<inputType id="cmake4eclipse.mbs.inputType.c.369582554" superClass="cmake4eclipse.mbs.inputType.c"/>
+								<inputType id="cmake4eclipse.mbs.inputType.cpp.668837162" superClass="cmake4eclipse.mbs.inputType.cpp"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
 					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -38,10 +46,20 @@
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="C-in-docker.cmake4eclipse.mbs.projectType.1220717229" name="Cmake4eclipse" projectType="cmake4eclipse.mbs.projectType"/>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/C-in-docker"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cmake4eclipse.mbs.config.debug.1403917757;cmake4eclipse.mbs.config.debug.1403917757.;cmake4eclipse.mbs.toolchain.tool.dummy.1643298907;cmake4eclipse.mbs.inputType.cpp.826689170">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cmake4eclipse.mbs.config.debug.1403917757;cmake4eclipse.mbs.config.debug.1403917757.;cmake4eclipse.mbs.toolchain.tool.dummy.1643298907;cmake4eclipse.mbs.inputType.c.1785004790">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
 	</storageModule>
-	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
-	<storageModule moduleId="refreshScope"/>
-	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 </cproject>

@@ -45,11 +45,11 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="${ProjName}" buildArtefactType="cmake4eclipse.mbs.buildArtefactType.cmake" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=cmake4eclipse.mbs.buildArtefactType.cmake" description="Default coming from cmake" id="cmake4eclipse.mbs.config.cmake.729166610" name="Default" parent="cmake4eclipse.mbs.config.cmake">
+				<configuration artifactName="${ProjName}" buildArtefactType="cmake4eclipse.mbs.buildArtefactType.cmake" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=cmake4eclipse.mbs.buildArtefactType.cmake" description="Default coming from cmake" id="cmake4eclipse.mbs.config.cmake.729166610" name="Default" optionalBuildProperties="org.eclipse.cdt.docker.launcher.containerbuild.property.volumes=,org.eclipse.cdt.docker.launcher.containerbuild.property.selectedvolumes=" parent="cmake4eclipse.mbs.config.cmake">
 					<folderInfo id="cmake4eclipse.mbs.config.cmake.729166610." name="/" resourcePath="">
 						<toolChain id="cmake4eclipse.mbs.config.cmake.toolChain.658723965" name="CMake driven" superClass="cmake4eclipse.mbs.config.cmake.toolChain">
 							<targetPlatform id="cmake4eclipse.mbs.targetPlatform.cmake.876865885" name="Any Platform" superClass="cmake4eclipse.mbs.targetPlatform.cmake"/>
-							<builder buildPath="/C-multiconfig/build/Default" id="cmake4eclipse.mbs.builder.222785131" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CMake Builder" superClass="cmake4eclipse.mbs.builder"/>
+							<builder buildPath="lakfjdalkdf f/" id="cmake4eclipse.mbs.builder.222785131" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CMake Builder" superClass="cmake4eclipse.mbs.builder"/>
 							<tool id="cmake4eclipse.mbs.toolchain.tool.dummy.185966411" name="CMake" superClass="cmake4eclipse.mbs.toolchain.tool.dummy">
 								<inputType id="cmake4eclipse.mbs.inputType.c.461312340" superClass="cmake4eclipse.mbs.inputType.c"/>
 								<inputType id="cmake4eclipse.mbs.inputType.cpp.306901446" superClass="cmake4eclipse.mbs.inputType.cpp"/>
@@ -58,7 +58,9 @@
 					</folderInfo>
 				</configuration>
 			</storageModule>
-			<storageModule moduleId="de.marw.cmake4eclipse.mbs.settings"/>
+			<storageModule buildDir="_build/${ConfigName}" dirtyTs="1650567972941" moduleId="de.marw.cmake4eclipse.mbs.settings">
+				<options/>
+			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 		</cconfiguration>
 		<cconfiguration id="cmake4eclipse.mbs.config.release.1529691522">
@@ -75,7 +77,7 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="${ProjName}" buildArtefactType="cmake4eclipse.mbs.buildArtefactType.cmake" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=cmake4eclipse.mbs.buildArtefactType.cmake,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" description="" id="cmake4eclipse.mbs.config.release.1529691522" name="Release" optionalBuildProperties="org.eclipse.cdt.docker.launcher.containerbuild.property.volumes=,org.eclipse.cdt.docker.launcher.containerbuild.property.selectedvolumes=" parent="cmake4eclipse.mbs.config.release">
+				<configuration artifactName="${ProjName}" buildArtefactType="cmake4eclipse.mbs.buildArtefactType.cmake" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=cmake4eclipse.mbs.buildArtefactType.cmake,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" description="" id="cmake4eclipse.mbs.config.release.1529691522" name="Release" optionalBuildProperties="org.eclipse.cdt.docker.launcher.containerbuild.property.selectedvolumes=,org.eclipse.cdt.docker.launcher.containerbuild.property.volumes=" parent="cmake4eclipse.mbs.config.release">
 					<folderInfo id="cmake4eclipse.mbs.config.release.1529691522." name="/" resourcePath="">
 						<toolChain id="cmake4eclipse.mbs.config.release.toolChain.609892963" name="CMake driven" superClass="cmake4eclipse.mbs.config.release.toolChain">
 							<targetPlatform id="cmake4eclipse.mbs.targetPlatform.cmake.1993718455" name="Any Platform" superClass="cmake4eclipse.mbs.targetPlatform.cmake"/>
@@ -99,6 +101,16 @@
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
-	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/C-multiconfig"/>
+		</configuration>
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/C-multiconfig"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/C-multiconfig"/>
+		</configuration>
+	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 </cproject>

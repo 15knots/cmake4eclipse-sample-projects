@@ -2,7 +2,7 @@
 cmake_minimum_required( VERSION 2.8)
  
 
-ENABLE_LANGUAGE(C)
+project(C-in-docker C)
 
 #----------------------
 # cmake settings

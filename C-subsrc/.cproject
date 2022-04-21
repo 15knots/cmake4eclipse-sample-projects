@@ -31,7 +31,9 @@
 					</sourceEntries>
 				</configuration>
 			</storageModule>
-			<storageModule moduleId="de.marw.cmake4eclipse.mbs.settings"/>
+			<storageModule buildDir="_build/${ConfigName}" dirtyTs="0" moduleId="de.marw.cmake4eclipse.mbs.settings">
+				<options/>
+			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 		</cconfiguration>
 	</storageModule>
@@ -42,6 +44,10 @@
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
-	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/C-subsrc"/>
+		</configuration>
+	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 </cproject>
