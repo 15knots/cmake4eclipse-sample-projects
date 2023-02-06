@@ -1,5 +1,5 @@
 # Policy
-cmake_minimum_required( VERSION 2.8)
+cmake_minimum_required( VERSION 3.0)
  
 # Project name
 project(C-1src)
@@ -35,4 +35,5 @@ MESSAGE( STATUS "MYPROJ_VERSION_TXT =  ${MYPROJ_VERSION_TXT}" )
 include_directories( "${PROJECT_BINARY_DIR}/ProjectSrc1")
 add_definitions(-DC1SRC=2 -DBAR123=1)
 add_executable(EXECUTABLE main.c)
+install(TARGETS EXECUTABLE)
 
